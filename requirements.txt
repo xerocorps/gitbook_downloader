@@ -1,0 +1,28 @@
+# GitBook Multi-Strategy Downloader v4.0 Requirements
+
+# Core HTTP and async
+aiohttp>=3.9.0
+asyncio>=3.4.3
+
+# HTML parsing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Git operations (for GitHub strategy)
+GitPython>=3.1.40
+
+# Terminal colors
+colorama>=0.4.6
+
+# Optional Selenium support (for enhanced scraping)
+selenium>=4.15.0
+
+# XML parsing (for sitemaps)
+html5lib>=1.1
+
+# HTTP fallback
+requests>=2.31.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
